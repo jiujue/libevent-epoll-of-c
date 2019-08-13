@@ -1,2 +1,2 @@
 # epoll
-# the model of c ,no concurrent
+# The model of c ,no concurrent
