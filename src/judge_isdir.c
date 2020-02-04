@@ -2,7 +2,7 @@
 // Author: jiujue
 // Created Time: 2019年04月05日 星期五 20时54分34秒
 
-#include "head.h"
+#include "../include/head.h"
 
 int judge_type_dir_or_nondir(const char* name)
 {

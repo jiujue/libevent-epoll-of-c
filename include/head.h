@@ -17,6 +17,8 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <arpa/inet.h>
+#include <unistd.h>
+
 
 int judge_type_dir_or_nondir(const char* name);
 int send_dir_asheml(struct bufferevent *bufev, char *dirname, void *arg);

@@ -2,7 +2,7 @@
 // Author: jiujue
 // Created Time: 2019年04月05日 星期五 22时14分29秒
 
-#include "head.h"
+#include "../include/head.h"
 
 int send_html_head(struct bufferevent* bufev, int stat_no, const char* stat_desc, char* type)
 {

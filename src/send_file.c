@@ -1,5 +1,6 @@
 
-#include "head.h"
+#include "../include/head.h"
+
 
 int send_file(struct bufferevent *bufev,char* file)
 {
@@ -33,7 +34,9 @@ int send_file(struct bufferevent *bufev,char* file)
         memset(file_read_buf,0,sizeof(file_read_buf));
     }
 
+
     printf("close ...\n");
+    sleep(2);
     close(ffd);
     return 0;
 }

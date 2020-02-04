@@ -2,7 +2,7 @@
 // Author: jiujue
 // Created Time: 2019年04月05日 星期五 19时54分48秒
 
-#include "head.h"
+#include "../include/head.h"
 
 int main(int argc, const char* argv[])
 {

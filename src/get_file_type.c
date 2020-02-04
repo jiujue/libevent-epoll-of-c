@@ -3,7 +3,7 @@
 // Created Time: 2019年04月06日 星期六 19时14分07秒
 
 
-#include "head.h"
+#include "../include/head.h"
 
 const char *get_file_type(const char *name)
 {
