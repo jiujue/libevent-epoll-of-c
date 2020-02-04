@@ -20,7 +20,7 @@ include_directories(include)
 
 
 # Can manually add the sources using the set command as follows:
-# set(SOURCES src/sent_file.cpp src/main.cpp)
+# set(SOURCES src/sent_file.c src/main.c)
 
 # However, the file(GLOB...) allows for wildcard additions:
 file(GLOB SOURCES "src/*.c")
