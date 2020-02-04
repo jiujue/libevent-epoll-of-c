@@ -1,0 +1,3 @@
+/root/libevent-epoll-of-c/CMakeFiles/rebuild_cache.dir
+/root/libevent-epoll-of-c/CMakeFiles/s_v2.dir
+/root/libevent-epoll-of-c/CMakeFiles/edit_cache.dir
