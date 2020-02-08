@@ -2,8 +2,7 @@
 #include "../include/head.h"
 
 
-int send_file(struct bufferevent *bufev,char* file)
-{
+int send_file(struct bufferevent *bufev,char* file){
     int ffd = open(file,O_RDONLY);
     if(-1 == ffd)
     {
