@@ -21,7 +21,7 @@
 
 
 int judge_type_dir_or_nondir(const char* name);
-int send_dir_asheml(struct bufferevent *bufev, char *dirname, void *arg);
+int send_dirs_html(struct bufferevent *bufev, char *dirname, void *arg);
 struct evconnlistener* libev_start(struct event_base*base, const char* Ip,int Port);
 int send_html_head(struct bufferevent* bufev, int stat_no, const char* stat_desc, char* type);
 const char *get_file_type(const char *name);

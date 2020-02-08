@@ -26,24 +26,24 @@ The C compiler identification is MSVC, found in "D:/C_WorkSpace/libevent-epoll-o
 Determining if the C compiler works passed with the following output:
 Change Dir: D:/C_WorkSpace/libevent-epoll-of-c/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_a68d6\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_a68d6.dir\build.make /nologo -L                  CMakeFiles\cmTC_a68d6.dir\build
-Building C object CMakeFiles/cmTC_a68d6.dir/testCCompiler.c.obj
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe @C:\Users\jiujue\AppData\Local\Temp\nm7365.tmp
+Run Build Command(s):nmake /nologo cmTC_088f0\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_088f0.dir\build.make /nologo -L                  CMakeFiles\cmTC_088f0.dir\build
+Building C object CMakeFiles/cmTC_088f0.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe @C:\Users\jiujue\AppData\Local\Temp\nmABE5.tmp
 testCCompiler.c
-Linking C executable cmTC_a68d6.exe
-	"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_a68d6.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_a68d6.dir\objects1.rsp @C:\Users\jiujue\AppData\Local\Temp\nm74DD.tmp
+Linking C executable cmTC_088f0.exe
+	"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_088f0.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_088f0.dir\objects1.rsp @C:\Users\jiujue\AppData\Local\Temp\nmAD5D.tmp
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/C_WorkSpace/libevent-epoll-of-c/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_7def3\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_7def3.dir\build.make /nologo -L                  CMakeFiles\cmTC_7def3.dir\build
-Building C object CMakeFiles/cmTC_7def3.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe @C:\Users\jiujue\AppData\Local\Temp\nm797F.tmp
+Run Build Command(s):nmake /nologo cmTC_71f2d\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_71f2d.dir\build.make /nologo -L                  CMakeFiles\cmTC_71f2d.dir\build
+Building C object CMakeFiles/cmTC_71f2d.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe @C:\Users\jiujue\AppData\Local\Temp\nmB163.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_7def3.exe
-	"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7def3.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_7def3.dir\objects1.rsp @C:\Users\jiujue\AppData\Local\Temp\nm79ED.tmp
+Linking C executable cmTC_71f2d.exe
+	"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_71f2d.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_71f2d.dir\objects1.rsp @C:\Users\jiujue\AppData\Local\Temp\nmB1D1.tmp
 
 
 

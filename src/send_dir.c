@@ -6,7 +6,7 @@
 #define MAXFORGTML_ 4096
 
 
-int send_dir_asheml(struct bufferevent *bufev, char *dirname, void* arg)
+int send_dirs_html(struct bufferevent *bufev, char *dirname, void* arg)
 {
     printf("******************send_dir name is %s\n",dirname);
 

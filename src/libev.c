@@ -27,7 +27,7 @@ void read_cb(struct bufferevent* bufev, void* arg)
     if(isFile == 1){//is dir
         printf("send dir <name>>%s\n",file);
         send_html_head(bufev,200,"OK",(char*)"text/html");
-        send_dir_asheml(bufev,file,NULL);
+        send_dirs_html(bufev, file, NULL);
     }
     else if(-1 == isFile)
     {//is not found file or directory
