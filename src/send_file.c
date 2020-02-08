@@ -11,7 +11,7 @@ int send_file(struct bufferevent *bufev,char* file){
     }
 
 //    char file_read_buf[1024];
-    char *file_read_buf = (char*)malloc(4096);
+    char *file_read_buf = (char*)malloc(40960);
     int read_len = 0;
 
     char * type = get_file_type(file);
@@ -19,7 +19,7 @@ int send_file(struct bufferevent *bufev,char* file){
     send_html_head(bufev,200, "OK", type);
 
 
-    while((read_len=read(ffd, file_read_buf,4096)) > 0)
+    while((read_len=read(ffd, file_read_buf,40960)) > 0)
     {
         if(0 == read_len)
         {
@@ -30,7 +30,7 @@ int send_file(struct bufferevent *bufev,char* file){
         printf("send message :%s\n",file_read_buf);
         memset(file_read_buf,0,sizeof(file_read_buf));
     }
-    bufferevent_write(bufev,"git out\n",8);;
+    bufferevent_write(bufev,"\r\n",2);;
     close(ffd);
     printf("close ...\n");
     free(file_read_buf);
