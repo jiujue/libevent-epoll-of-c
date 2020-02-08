@@ -16,24 +16,8 @@ int send_file(struct bufferevent *bufev,char* file){
 
     char * type = get_file_type(file);
 
-//    send_html_head(bufev,200, "OK", type);
-//    int send_html_head(struct bufferevent* bufev, int stat_no, const char* stat_desc, char* type)
-//    {
-        char buf[1024] = {0};
-        //send status row
-        sprintf(buf,"HTTP/1.1 %d %s \r\n",200,"ok");
-        bufferevent_write(bufev,buf,strlen(buf));
+    send_html_head(bufev,200, "OK", type);
 
-//    printf("send htp head -> status line:%s \n",buf);
-
-        //send message dgrame
-        sprintf(buf,"Content-Type: %s; charset=utf-8\r\n",type);
-        bufferevent_write(bufev,buf,strlen(buf));
-//  printf("send htp head -> grame:%s",buf);
-
-        //send blank row
-        bufferevent_write(bufev,"\r\n",2);
-//    }
 
     while((read_len=read(ffd, file_read_buf,sizeof(file_read_buf))) > 0)
     {
@@ -46,6 +30,7 @@ int send_file(struct bufferevent *bufev,char* file){
         printf("send message :%s\n",file_read_buf);
         memset(file_read_buf,0,sizeof(file_read_buf));
     }
+    bufferevent_write(bufev,"\r\n",2);;
     close(ffd);
     printf("close ...\n");
     free(file_read_buf);

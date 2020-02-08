@@ -21,7 +21,7 @@ void read_cb(struct bufferevent* bufev, void* arg)
     printf("fffffffff          is %d \n",isFile);
     if(0 == isFile)
     {//is palin file
-        printf("send file <name>>%s\n",file);
+        printf("send file <name> -> %s\n",file);
         send_file(bufev,file);
     }
     if(isFile == 1){//is dir
